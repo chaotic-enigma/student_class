@@ -97,3 +97,7 @@ print(ems)
 ecm = g_s_d(['dull'],['slow'],['genius'])
 print(ecm.student_development())
 print(ecm)
+
+pseco = g_s_d(['slow'],['genius'],['dull'])
+print(pseco.student_development())
+print(pseco)
