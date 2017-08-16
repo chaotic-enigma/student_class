@@ -62,7 +62,7 @@ print(pupil.conclusion())
 print'''
 
 class g_s_d(student_types):
-	def student_development(self):
+	def student_development(self): # takes all the functions in a list and prints the outcomes
 		for result in [student_types.newly_joined(self), student_types.after_tests(self), student_types.serious_concern(self), student_types.final_test(self), student_types.final_result(self), student_types.conclusion(self)]:
 			print
 			print result
