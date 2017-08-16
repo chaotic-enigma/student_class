@@ -89,3 +89,11 @@ print(pme)
 pcm = g_s_d(['genius'],['dull'],['slow'])
 print(pcm.student_development())
 print(pcm)
+
+ems = g_s_d(['genius'],['slow'],['dull'])
+print(ems.student_development())
+print(ems)
+
+ecm = g_s_d(['dull'],['slow'],['genius'])
+print(ecm.student_development())
+print(ecm)
