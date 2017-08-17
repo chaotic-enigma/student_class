@@ -51,6 +51,9 @@ class student_types(object):
 
 	def conclusion(self):
 		return 'Finally the Head Master of the Institution feels happy seeing the result and dedication of students in studies aspect.'
+	
+	def __str__(self): # to not to return the its address in memory which is basically useless except as a unique identifier
+		return ''
 
 '''pupil = student_types(['genius'],['slow'],['dull'])
 print(pupil.newly_joined())
